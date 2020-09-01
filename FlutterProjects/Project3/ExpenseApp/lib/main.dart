@@ -13,7 +13,10 @@ class ExpApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FlutterApp',
+      title: 'Expense App',
+      theme: ThemeData(
+        primarySwatch: Colors.lime,
+      ),
       home: MyHomePage(),
     );
   }
@@ -88,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Card(
-              color: Colors.red,
+              color: Colors.lightGreen,
               child: Container(
                 width: double.infinity,
                 height: 20,

@@ -20,9 +20,9 @@ class TransactionList extends StatelessWidget {
                 Container(
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    color: Colors.tealAccent,
+                    color: Colors.white24,
                     border: Border.all(
-                      color: Colors.red,
+                      color: Theme.of(context).primaryColor,
                       width: 2,
                     ),
                   ),
@@ -33,7 +33,7 @@ class TransactionList extends StatelessWidget {
                   child: Text(
                     'Rs:${transactions[index].amount.toStringAsFixed(2)}',
                     style: TextStyle(
-                        color: Colors.purple,
+                        color: Theme.of(context).primaryColorDark,
                         fontSize: 20,
                         //fontFamily: HttpHeaders.teHeader,
                         fontWeight: FontWeight.bold),
