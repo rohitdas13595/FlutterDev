@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:ExpenseApp/widgets/new_transactions.dart';
 
 import './widgets/transaction_list.dart';
@@ -16,6 +14,23 @@ class ExpApp extends StatelessWidget {
       title: 'Expense App',
       theme: ThemeData(
         primarySwatch: Colors.lime,
+        accentColor: Colors.amber,
+        fontFamily: 'Quicksand',
+        textTheme: ThemeData.light().textTheme.copyWith(
+              title: TextStyle(
+                fontFamily: 'OpenSans',
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
+              ),
+            ),
+        appBarTheme: AppBarTheme(
+          textTheme: ThemeData.light().textTheme.copyWith(
+                title: TextStyle(
+                  fontFamily: 'OpenSans',
+                  fontSize: 20,
+                ),
+              ),
+        ),
       ),
       home: MyHomePage(),
     );
@@ -35,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final amountController = TextEditingController();
 
   final List<Transactions> _userTransactions = [
+    /*
     Transactions(
       id: 't1',
       title: 'New Shirt',
@@ -47,6 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
       amount: 2399.00,
       date: DateTime.now(),
     ),
+    */
   ];
 
   void _addNewTransaction(String txtitle, double txamount) {
