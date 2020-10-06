@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/ClockProject/alarm_clock/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/ClockProject/alarm_clock/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Project1/quiz_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Project1/quiz_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Project2_flutter_assignment/flutter_assignment/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Project2_flutter_assignment/flutter_assignment/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Project3/ExpenseApp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Project3/ExpenseApp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/clockProj/clockApp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/clockProj/clockApp/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
